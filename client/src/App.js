@@ -27,7 +27,8 @@ function App() {
           <Sidebar setMode={setMode} mode={ mode}/>
           <Feed />
           <Rightbar />
-        </Stack>
+          </Stack>
+          //adding new line
           <Add />   
         </Box>
         <Routes>
