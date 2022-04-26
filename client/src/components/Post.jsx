@@ -1,7 +1,10 @@
 import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from '@mui/material'
 import  {Share, Favorite, MoreVert, FavoriteBorder, Comment } from "@mui/icons-material";
+import { Users } from "../dummyData";
 
-const Post = () => {
+
+
+const Post = ({post}) => {
   return (
        <Card sx={{margin:5}}>
       <CardHeader
